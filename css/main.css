@@ -146,6 +146,7 @@ header nav ul li a:hover {
 }
 .product .product-carousel {
   margin: 24px 10px 0;
+  overflow: hidden;
 }
 .product .product-carousel .carousel-control-next,
 .product .product-carousel .carousel-control-prev {
