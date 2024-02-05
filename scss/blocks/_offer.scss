@@ -1,0 +1,11 @@
+@import 'variables';
+
+.offer {
+   display: flex;
+   background: $blue-gradient;
+   justify-content: center;
+
+   font-size: 14px;
+   color: #FFFF;
+   padding: 10px;
+}

@@ -1,0 +1,76 @@
+@import 'variables';
+
+.accord {
+   margin-top: 24px;
+   display: flex;
+   flex-direction: column;
+
+   row-gap: 8px;
+
+   .accord-item {
+      padding: 15px;
+      border: 1px solid #626262;
+      border-radius: 30px;
+
+      .accord-btn {
+         padding: 0;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         background-color: transparent;
+         border: none;
+
+         .collapse-text {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 8px;
+
+            .btn-text {
+               color: $main-black;
+               font-family: $Neuzeit-font;
+               text-transform: uppercase;
+               font-size: 14px;
+               font-weight: bold;
+            }
+         }
+
+         .collapse-btn {
+            position: relative;
+            width: 30px;
+            height: 30px;
+
+            border: 1px solid #626262;
+            border-radius: 100%;
+            background-color: $main-black;
+
+            span {
+               position: absolute;
+               display: block;
+               width: 16px;
+               height: 2px;
+               background-color: #FFF;
+               border-radius: 2px;
+
+               left: 50%;
+               top: 50%;
+               transform: translateX(-50%) translateY(-50%);
+               transition: .3s;
+            }
+
+            .collapse-btn_open {
+               transform: translateX(-50%) translateY(-50%) rotate(90deg);
+            }
+         }
+      }
+
+      .accord-body {
+         margin-top: 20px;
+         font-size: 14px;
+         line-height: 130%;
+         color: $light-black;
+      }
+   }
+}

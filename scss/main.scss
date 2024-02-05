@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://db.onlinewebfonts.com/c/24ee22b1aca25a7d83f28d63c4093f8e?family=Neuzeit+Grotesk+Regular');
+@import './blocks/offer';
+@import './blocks/header';
+@import './blocks/preview';
+@import './blocks/product';
+@import './blocks/about-product';
+@import './blocks/shopping';
+@import './blocks/comments';
+@import './blocks/variables';
+
+
+.container {
+   padding: 0;
+   max-width: 390px;
+   min-width: 390px;
+   font-family: $Gilroy-font, sans-serif;
+}

@@ -1,0 +1,101 @@
+@import 'variables';
+
+.preview {
+   position: relative;
+   padding: 40px 10px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   row-gap: 186px;
+
+   background: linear-gradient(4.46deg, rgba(255, 255, 255, 0.1) 4.17%, rgba(11, 11, 11, 0.1) 81.12%), $dark-black;
+   border-radius: 0px 0px 30px 30px;
+
+   .description {
+      color: #FFF;
+      z-index: 1;
+
+      h2 {
+         font-family: $Neuzeit-font;
+         font-size: 32px;
+         font-weight: bold;
+      }
+
+      span {
+         font-size: 14px;
+      }
+
+      .price {
+         padding: 2px 12px;
+         display: flex;
+         align-items: center;
+         column-gap: 10px;
+         width: 112px;
+         border: 1px solid $border-grey;
+         border-radius: 30px;
+         backdrop-filter: blur(8px);
+
+         color: #FFFFFF;
+         text-transform: capitalize;
+         font-family: $Neuzeit-font;
+         font-weight: bold;
+
+         span {
+            &:first-child {
+               color: rgba(255, 255, 255, 0.8);
+               text-decoration: line-through;
+            }
+
+            &:last-child {
+               font-size: 40px;
+               line-height: 48px;
+            }
+         }
+      }
+   }
+
+
+   .features {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 4px;
+      z-index: 1;
+
+      &__item {
+         padding: 10px 4px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         gap: 10px;
+         align-self: stretch;
+         width: calc(100% / 3);
+
+         background: linear-gradient(180.19deg, rgba(255, 255, 255, 0.1) 0.16%, rgba(255, 255, 255, 0) 88.86%);
+         backdrop-filter: blur(12.5px);
+         border-radius: 30px;
+         box-shadow: -1px 1px 1px $border-grey;
+
+         .mini-logo {
+            width: fit-content;
+         }
+
+         span {
+            font-size: 12px;
+            text-align: center;
+            color: #FFF;
+         }
+      }
+   }
+
+   img {
+      position: absolute;
+      top: 8px;
+      left: -8px;
+      width: 100%;
+      z-index: 0;
+   }
+}
