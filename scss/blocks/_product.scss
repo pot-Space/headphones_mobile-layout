@@ -51,15 +51,15 @@
             border-width: 1px;
 
             &:nth-child(1) {
-               background-image: url('/img/gray-type_1.png');
+               background-image: url("../img/gray-type_1.png");
             }
 
             &:nth-child(2) {
-               background-image: url('/img/gray-type_2.png');
+               background-image: url("../img/gray-type_2.png");
             }
 
             &:nth-child(3) {
-               background-image: url('/img/gray-type_3.png');
+               background-image: url("../img/gray-type_3.png");
             }
          }
 
@@ -68,8 +68,6 @@
             border-radius: 30px;
          }
       }
-
-
    }
 
    .order {

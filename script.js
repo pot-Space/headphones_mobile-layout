@@ -32,6 +32,6 @@ function changeProduct(path) {
    }
 
    for (let i = 0; i < carouselBtn.length; i++) {
-      carouselBtn[i].style.backgroundImage = `url("img/${path}-type_${i + 1}.png")`;
+      carouselBtn[i].style.backgroundImage = `url("./img/${path}-type_${i + 1}.png")`;
    }
 }

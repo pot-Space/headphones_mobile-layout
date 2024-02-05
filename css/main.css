@@ -175,13 +175,13 @@ header nav ul li a:hover {
   border-width: 1px;
 }
 .product .product-carousel .carousel-indicators .img-type:nth-child(1) {
-  background-image: url("/img/gray-type_1.png");
+  background-image: url("../img/gray-type_1.png");
 }
 .product .product-carousel .carousel-indicators .img-type:nth-child(2) {
-  background-image: url("/img/gray-type_2.png");
+  background-image: url("../img/gray-type_2.png");
 }
 .product .product-carousel .carousel-indicators .img-type:nth-child(3) {
-  background-image: url("/img/gray-type_3.png");
+  background-image: url("../img/gray-type_3.png");
 }
 .product .product-carousel .carousel-indicators .img-type.active {
   border: 1px solid #DCDCDC;
